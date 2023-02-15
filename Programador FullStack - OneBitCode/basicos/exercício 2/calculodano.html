@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de dano</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculo de dano</h1>
+    <div id="infos">
+        <div class="info">
+            <h3 id="p1">Personagem 1</h3>
+            <p>Nome do personagem:</p>
+            <input type="text" id="nome1">
+            <p>Poder de ataque</p>
+            <input type="number" id="ataque">
+        </div>
+        <div class="info">
+            <h3>Personagem 2</h3>
+            <p>Nome do personagem:</p>
+            <input type="text" name="nome2" id="nome2">
+            <p>Pontos de vida</p>
+            <input type="number" name="pontos2" id="pontos2">
+            <p>Poder de defesa:</p>
+            <input type="number" name="defesa" id="defesa">
+            <p>Possui escudo</p>
+            <input type="radio" name="escudo" id="sim">
+            <label for="sim">Sim</label>
+            <input type="radio" name="escudo" id="nao" checked>
+            <label for="nao">Não</label>
+        </div>
+    </div>
+    <input class="button" type="button" value="Combate!" onclick="combate()">
+    <div id="res"></div>
+    <script src="calculodano.js"></script>
+</body>
+</html>
