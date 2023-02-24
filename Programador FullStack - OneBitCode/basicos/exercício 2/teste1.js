@@ -11,7 +11,7 @@ function resultado() {
     resultado.innerHTML = `O ${nome1} é mais rápido que o ${nome2}!`;
   } else if (vel1 < vel2) {
     resultado.innerHTML = `O ${nome2} é mais rápido que o ${nome1}`;
-  } else if ((vel1 = vel2)) {
+  } else {
     resultado.innerHTML = `Ambos tem a mesma velocidade!`;
   }
 }

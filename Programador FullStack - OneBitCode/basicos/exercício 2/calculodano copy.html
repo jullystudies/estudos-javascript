@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculo de dano</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <h1>Calculo de dano</h1>
     <div id="infos">
-        <div class="info">
-            <h3 id="p1">Personagem 1</h3>
-            <p>Nome do personagem:</p>
-           <span id="nome1">nome</span>
-            <p>Poder de ataque</p>
-            <span id="ataque">Poder</span>
-        </div>
-        <div class="info">
-            <h3>Personagem 2</h3>
-            <p>Nome do personagem:</p>
-            <span id="nome2">nome</span>
-            <p>Pontos de vida</p>
-            <span id="pontos">pontos</span>
-            <p>Poder de defesa:</p>
-            <span id="defesa">poder</span>
-            <p>Possui escudo</p>
-            <input type="radio" name="escudo" id="sim">
-            <label for="sim">Sim</label>
-            <input type="radio" name="escudo" id="nao" checked>
-            <label for="nao">Não</label>
-        </div>
+      <div class="info">
+        <h3 id="p1">Personagem 1</h3>
+        <p>Nome do personagem:</p>
+        <span id="nome1">nome</span>
+        <p>Poder de ataque</p>
+        <span id="ataque">Poder</span>
+      </div>
+      <div class="info">
+        <h3>Personagem 2</h3>
+        <p id="p2">Nome do personagem:</p>
+        <span id="nome2">nome</span>
+        <p>Pontos de vida</p>
+        <span id="pontos">pontos</span>
+        <p>Poder de defesa:</p>
+        <span id="defesa">poder</span>
+        <p>Possui escudo</p>
+        <input type="radio" name="escudo" id="sim" />
+        <label for="sim">Sim</label>
+        <input type="radio" name="escudo" id="nao" checked />
+        <label for="nao">Não</label>
+      </div>
     </div>
-    <input class="button" type="button" value="Combate!" onclick="combate()">
+    <input class="button" type="button" value="Combate!" onclick="combate()" />
     <div id="res">Resultado do combate!</div>
     <script src="calculodano1.js"></script>
-</body>
+  </body>
 </html>
